@@ -40,7 +40,7 @@ export default function Login() {
         window.location.reload();
       }
     } catch (error) {
-      setMessage("Error de conexión con el servidor");
+      setMessage(error, "Error de conexión con el servidor");
     }
   };
 
