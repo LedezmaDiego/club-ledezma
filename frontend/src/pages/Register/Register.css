@@ -1,0 +1,21 @@
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form input {
+  border: 2px solid #f2d7da;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  margin: 10px;
+  background-color: #7b1e28;
+  border-radius: 4px;
+  cursor: pointer;
+}
