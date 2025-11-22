@@ -1,11 +1,13 @@
-import React from "react";
 import "./Home.css";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function Home() {
   return (
-    <div className="home-container">
-      <h1>Bienvenido a la página principal</h1>
-      <p>Esta es una página de ejemplo usando React + Vite.</p>
-    </div>
+    <>
+      <Navbar />
+      <div className="home-container">
+        <h1>Bienvenido a la página principal</h1>
+      </div>
+    </>
   );
 }

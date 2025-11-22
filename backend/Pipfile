@@ -5,5 +5,10 @@ name = "pypi"
 
 [packages]
 flask = "*"
+bcrypt = "*"
+python-dotenv = "*"
+flask-cors = "*"
+pymysql = "*"
+cryptography = "*"
 
 [dev-packages]

@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #7b1e28; /* bordó elegante */
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  background-color: white;
+  color: #7b1e28; /* bordó */
+  border: 2px solid #7b1e28;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #f2d7da; /* bordó muy claro */
+}
